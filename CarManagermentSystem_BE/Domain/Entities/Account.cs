@@ -16,7 +16,10 @@ namespace Domain.Entities
         public string? Phone { get; set; }
         public string? Address { get; set; }
         public string? Gender { get; set; }
-        public string? DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public string? ConfirmationToken { get; set; }
+        public bool? IsConfirm { get; set; }
+        public bool? Status { get; set; }
         public int? RoleId { get; set; }
 
 
